@@ -1,0 +1,12 @@
+[package]
+name = "keygen_bruteforce_for_prefix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ed25519-dalek = "1.0.1"
+rand = "0.7"
+rand_core = { version = "0.6.4", default-features = false, optional = true }
+xor_name = "5.0.0"
